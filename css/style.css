@@ -8,7 +8,9 @@ body {
 
 
 #container {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    padding-left: 250px;
+    padding-right: 250px;
 }
 .menu-nav {
    padding: 10px;
@@ -26,13 +28,12 @@ body {
     align-items: center;
 }
 
-.menu-nav a {
+.menu-nav a  {
     
     margin-right: 10px;
     text-decoration: none;
     color: black;
     
-
  }
 
  .menu-nav a:hover {
@@ -90,37 +91,40 @@ h1 {
 .segundo h3{
     text-align: center;
     margin: 20px;
+}
 
 
-#rodape {
+
+.rodape {
     /*background-color: rgb(255, 244, 224);*/
-    background-color: red;
+    background-color: rgb(17, 188, 211);
+    }
+
+.footer-pai{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}    
+
+.footer1  ul {
+   list-style: none;
+   text-decoration: none;
+   color: black;
+  
 }
 
-.footer1 {
-    border: 5px solid red;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+
+
+.footer2 ul{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+   
 }
-
-
-
-.footer2 {
-    border: 5px solid red;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer3 {
-    border: 5px solid red;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.footer3 ul{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+ 
 }
